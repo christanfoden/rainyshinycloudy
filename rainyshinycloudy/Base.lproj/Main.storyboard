@@ -93,7 +93,6 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BOf-XF-N5Q">
                                                     <rect key="frame" x="15" y="7" width="50" height="50"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="50" id="18O-18-84V"/>
                                                         <constraint firstAttribute="width" constant="50" id="7fK-81-1ES"/>
                                                     </constraints>
                                                 </imageView>
@@ -139,12 +138,9 @@
                                             </subviews>
                                             <color key="backgroundColor" red="0.92271305333681697" green="0.93184882614213194" blue="0.93184882614213194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
-                                                <constraint firstItem="vWp-qM-acx" firstAttribute="bottom" secondItem="WRA-Yw-6py" secondAttribute="bottomMargin" constant="7" id="0mY-sR-vWx"/>
                                                 <constraint firstAttribute="bottom" secondItem="BOf-XF-N5Q" secondAttribute="bottom" constant="7" id="Cla-Fg-Ujr"/>
                                                 <constraint firstItem="vWp-qM-acx" firstAttribute="leading" secondItem="BOf-XF-N5Q" secondAttribute="trailing" constant="8" id="Do5-3E-nRq"/>
                                                 <constraint firstItem="vWp-qM-acx" firstAttribute="centerY" secondItem="BOf-XF-N5Q" secondAttribute="centerY" id="Xyf-tY-02K"/>
-                                                <constraint firstItem="BOf-XF-N5Q" firstAttribute="centerY" secondItem="WRA-Yw-6py" secondAttribute="centerY" id="YqT-FG-Eyd"/>
-                                                <constraint firstItem="BOf-XF-N5Q" firstAttribute="centerY" secondItem="WRA-Yw-6py" secondAttribute="centerY" id="jmM-Ay-V4W"/>
                                                 <constraint firstItem="vWp-qM-acx" firstAttribute="top" secondItem="WRA-Yw-6py" secondAttribute="topMargin" constant="7" id="kWa-am-fuD"/>
                                                 <constraint firstItem="BOf-XF-N5Q" firstAttribute="top" secondItem="WRA-Yw-6py" secondAttribute="top" constant="7" id="nmD-u6-oau"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="vWp-qM-acx" secondAttribute="trailing" constant="20" id="r9p-mg-A5x"/>
